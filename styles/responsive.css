@@ -267,4 +267,269 @@
 
 /* For Medium Screen */
 
-@media screen and (min-width: 577px) and (max-width: 992px) {}
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    .nav-container {
+        flex-direction: column;
+        padding: 15px 10px;
+    }
+
+    .logo {
+        gap: 10px;
+        margin-bottom: 40px;
+    }
+
+    .logo h2 {
+        font-size: 40px;
+    }
+
+    .logo img {
+        width: 60px;
+    }
+
+    .tabs,
+    .text {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .banner-section {
+        flex-direction: column-reverse;
+        padding: 30px;
+    }
+
+    .banner-img {
+        margin-right: 10px;
+    }
+
+    .banner-info {
+        background-position: center;
+        background-size: contain;
+        margin: 25px 60px;
+        height: 50vh;
+        width: 100%;
+        padding: 50px 30px;
+        text-align: center;
+    }
+
+    .banner-info h1 {
+        font-size: 30px;
+        font-weight: 600;
+        padding: 0px;
+        margin: 10px;
+    }
+
+    .banner-info h2 {
+        font-size: 45px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .banner-info p {
+        font-size: 15px;
+        font-weight: 500;
+        padding: 10px 20px;
+    }
+
+    .btn1 {
+        margin: 20px;
+    }
+
+    .btn2 {
+        background: #4EC5F7;
+    }
+
+    .videos-section {
+        margin: 60px;
+        text-align: center;
+
+    }
+
+    .videos-section h1 {
+        font-size: 40px;
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+
+    .videos-section p {
+        font-size: 18px;
+        margin-bottom: 3rem;
+    }
+
+    .video-container {
+        grid-template-columns: 1fr;
+        margin: 10px 20px;
+    }
+
+    .video p {
+        margin-top: 24px;
+        color: #534C64;
+        font-size: 20px;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    .video {
+        position: relative;
+        display: inline-block;
+    }
+
+    .video img {
+        /* display: block; */
+        width: 100%;
+        height: auto;
+        transition: filter 0.3s ease;
+    }
+
+    .video:hover img {
+        filter: brightness(50%);
+    }
+
+    .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 87%;
+        background-color: rgba(0, 0, 0, 0.7);
+        border: 5px solid #F948B2;
+        border-radius: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .video:hover .overlay {
+        opacity: 1;
+    }
+
+    .overlay-content {
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: rgb(59, 5, 255);
+    }
+
+    .overlay-content img {
+        margin: 0;
+        padding: 0;
+        width: 50px;
+    }
+
+    .overlay-content p {
+        margin: 10px 0;
+        padding: 0;
+    }
+
+    .play-instant-section {
+        flex-direction: column;
+        margin: 20px 10px;
+        gap: 0px;
+        margin-bottom: 50px;
+        height: 100vh;
+    }
+
+    .play-text-sec {
+        width: 85%;
+        position: static;
+    }
+
+    .play-text-sec h1 {
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    .play-text-sec p {
+        text-align: center;
+        font-size: 18px;
+        margin-bottom: 35px;
+    }
+
+    .img1 {
+        max-width: 90%;
+        margin: 0px;
+        padding-left: 100px;
+    }
+
+    .img2 {
+        position: relative;
+        bottom: 220px;
+        max-width: 35%;
+        left: 20px;
+    }
+
+    .gaming-genre-container {
+        grid-gap: 30px;
+        padding: 30px 5px;
+        text-align: right;
+    }
+
+    .game-container {
+        gap: 5px;
+        border-radius: 50px;
+        padding: 5px;
+    }
+
+    .game-container p {
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .game-container img{
+        width: 35px;
+    }
+
+    footer {
+        padding: 20px 10px;
+        margin: 0px auto;
+    }
+
+    .footer-logo {
+        width: 45%;
+        margin: 70px auto;
+    }
+
+    .links-footer {
+        width: 72%;
+        margin: 20px auto;
+        margin-bottom: 60px;
+    }
+
+    .links-footer a {
+        font-size: 14px;
+        font-weight: 600;
+        margin: 10px;
+    }
+
+    .footer-social {
+        width: 80%;
+        margin: 40px auto;
+        cursor: pointer;
+    }
+
+    .footer-social img {
+        width: 30px;
+    }
+
+    .links-footer2 {
+        gap: 10px;
+        width: 85%;
+        margin: 40px auto;
+        margin-bottom: 60px;
+    }
+    
+    .links-footer2 a {
+        font-size: 10px;
+        font-weight: 500;
+    }
+
+    footer p {
+        width: 85%;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+
+
+}
