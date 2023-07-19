@@ -178,19 +178,19 @@
     text-align: left;
 }
 
-.video {
+.overlay-parent {
     position: relative;
     display: inline-block;
 }
 
-.video img {
+.overlay-parent img {
     /* width: 100%; */
-    width: 96%;
-    height: 82%;
+    width: 100%;
+    height: 100%;
     transition: filter 0.3s ease;
 }
 
-.video:hover img {
+.overlay-parent:hover img {
     filter: brightness(50%);
 }
 
@@ -198,16 +198,17 @@
     position: absolute;
     top: 0;
     left: 0;
-    width: 98%;
-    height: 83%;
+    width: 100%;
+    height: 100%;
     background-color: rgba(0, 0, 0, 0.7);
     border: 5px solid #F948B2;
     border-radius: 10px;
     opacity: 0;
     transition: opacity 0.3s ease;
+    /* overflow: hidden; */
 }
 
-.video:hover .overlay {
+.overlay-parent:hover .overlay {
     opacity: 1;
 }
 
@@ -300,7 +301,7 @@
     border-radius: 50px;
     background: #FFF;
     padding: 10px;
-
+    border: 3px solid #fafafa;
 }
 
 .game-container:hover {
