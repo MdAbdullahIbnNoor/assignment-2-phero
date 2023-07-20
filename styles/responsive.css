@@ -82,7 +82,7 @@
         margin-bottom: 1rem;
     }
 
-    .videos-section p {
+    #videos-section-p {
         font-size: 15px;
         margin-bottom: 3rem;
     }
@@ -92,12 +92,12 @@
         margin: 10px 20px;
     }
 
-    .video p {
-        margin-top: 24px;
-        color: #534C64;
-        font-size: 20px;
+    .video-paragraph {
+        width: 80%;
+        margin: 24px auto;
+        font-size: 16px;
         font-weight: 500;
-        text-align: center;
+        text-align: left;
     }
 
     .video {
@@ -350,7 +350,7 @@
         margin-bottom: 1rem;
     }
 
-    .videos-section p {
+    #videos-section-p {
         font-size: 18px;
         margin-bottom: 3rem;
     }
@@ -360,12 +360,12 @@
         margin: 10px 20px;
     }
 
-    .video p {
-        margin-top: 24px;
-        color: #534C64;
-        font-size: 20px;
+    .video-paragraph {
+        width: 80%;
+        margin: 24px auto;
+        font-size: 18px;
         font-weight: 500;
-        text-align: center;
+        text-align: left;
     }
 
     .video {

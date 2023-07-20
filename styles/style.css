@@ -88,7 +88,7 @@
 .banner-info {
     background-image: url("../images/Group 14.png");
     background-repeat: no-repeat;
-    /* background-position: cover; */
+    background-position: cover;
     height: 100%;
     width: 50%;
     padding: 148px 300px 148px 0px;
@@ -155,7 +155,7 @@
     -webkit-text-fill-color: transparent;
 }
 
-.videos-section p {
+#videos-section-p {
     color: #534C64;
     text-align: center;
     font-size: 18px;
@@ -170,7 +170,7 @@
     position: relative;
 }
 
-.video p {
+.video-paragraph {
     margin-top: 24px;
     color: #534C64;
     font-size: 20px;
