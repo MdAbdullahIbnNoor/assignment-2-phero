@@ -219,7 +219,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: rgb(59, 5, 255);
+    color: rgb(255, 255, 255);
 }
 
 .overlay-content img {

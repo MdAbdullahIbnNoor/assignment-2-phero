@@ -36,7 +36,7 @@
 
     .banner-info {
         background-position: center;
-        background-size: contain;
+        background-size: 120%;
         height: 100%;
         width: 100%;
         padding: 20px;
